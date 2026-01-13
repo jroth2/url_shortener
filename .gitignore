@@ -1,5 +1,4 @@
 .python-version
 .env
-
-shortener_app/__pycache__/__init__.cpython-39.pyc
-shortener_app/__pycache__/config.cpython-39.pyc
+shortener_app/__pycache__/
+shortener_app/__pycache__/*
