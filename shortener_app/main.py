@@ -10,6 +10,8 @@ from . import models, schemas
 from .database import SessionLocal, engine
 
 app = FastAPI()
+
+# if database doesnt exist, creares it using table schema from models
 models.Base.metadata.create_all(bind=engine)
 
 def get_db():
