@@ -2,3 +2,4 @@
 .env
 shortener_app/__pycache__/
 shortener_app/__pycache__/*
+shortener.db
